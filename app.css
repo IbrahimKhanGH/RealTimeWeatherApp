@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Rimouski';
+    src: url('rimouski_sb-webfont.woff2') format('woff2'),
+        url('rimouski_sb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: "Raleway";
+}
+body{
+    background-image: url("bg.jpg");
+    background-color: white;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 50%;
+    background-color: white;
+    align-self: center;
+    display: block;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 5px 10px 20px black;
+}
+.app-title {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-title p {
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #333;
+}
+#search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 3-x steelblue;
+}
+.notification {
+    background-color: white;
+    display: none;
+}
+.notification p {
+    color: red;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.weather-containter {
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    margin-top: 20px;
+}
+.weather-icon {
+    width: 100%;
+    height: 70px;
+}
+.weather-icon img{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+.location-icon {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+.location-icon img{
+    display: block;
+    width: 50px;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 5x;
+    border: black 2x;
+    border-radius: 10px;
+    color: black;
+}
+.temprature-value {
+    width: 100%;
+    height: 60px;
+}
+.temprature-value p {
+    color: black;
+    font-size: 4em;
+    text-align: center;
+}
+.temprature-value span{
+    color: black;
+    font-size: 0.5em;
+}
+.temprature-description p{
+    padding: 10px;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+}
+.location p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+}
+div.relative {
+    position: absolute;
+    top: 600px;
+    right: 120px;
+}
